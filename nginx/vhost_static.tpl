@@ -1,5 +1,5 @@
 location / {
-    root ${target};
+    alias ${target};
     index ${index};
 }
 

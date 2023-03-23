@@ -1,4 +1,4 @@
 location  /${location} {
-    root ${locationTarget};
+    alias ${locationTarget};
     index ${index};
 }
